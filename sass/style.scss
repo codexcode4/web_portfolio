@@ -181,3 +181,44 @@ p{
      
 }
 
+.client-section{
+    text-align: center;
+    .row{
+        justify-content: center;
+
+        .col-8{
+            @include col(66.66%);
+        }
+    }
+    h2{ 
+        margin-bottom: 40px;
+    }
+    h4{}
+    span{}
+    p{
+        
+        max-width: 700px;
+        margin:0 auto 30px;
+    }
+    .mail-box{
+        @include gradient(#d4ff00,#089d49,);
+    padding: 50px 20px;
+        p{
+            color: #fff;
+            font-size: 20px;
+        }
+        h1{
+            color: #fff;
+            font-size: 30px;
+        }
+    }
+
+}
+footer{
+    text-align: center;
+    padding: 20px 0;
+    p{
+        font-size: 20px;
+
+    }
+}

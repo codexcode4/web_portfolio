@@ -182,4 +182,44 @@ p {
   .latest-work-section .work-img {
     box-shadow: 0 20px 50px rgba(0, 0, 0, 0.1); }
 
+.client-section {
+  text-align: center; }
+  .client-section .row {
+    justify-content: center; }
+    .client-section .row .col-8 {
+      -webkit-box-flex: 0;
+      -ms-flex: 0 0 66.66%;
+      flex: 0 0 66.66%;
+      max-width: 66.66%; }
+  .client-section h2 {
+    margin-bottom: 40px; }
+  .client-section p {
+    max-width: 700px;
+    margin: 0 auto 30px; }
+  .client-section .mail-box {
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#089d49+0,d4ff00+100 */
+    background: #d4ff00;
+    /* Old browsers */
+    background: -moz-linear-gradient(left, #d4ff00 0%, #089d49 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(left, #d4ff00 0%, #089d49 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right, #d4ff00 0%, #089d49 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$color1', endColorstr='$color2',GradientType=1 );
+    /* IE6-9 */
+    padding: 50px 20px; }
+    .client-section .mail-box p {
+      color: #fff;
+      font-size: 20px; }
+    .client-section .mail-box h1 {
+      color: #fff;
+      font-size: 30px; }
+
+footer {
+  text-align: center;
+  padding: 20px 0; }
+  footer p {
+    font-size: 20px; }
+
 /*# sourceMappingURL=style.css.map */
