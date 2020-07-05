@@ -68,7 +68,10 @@ section {
   padding: 100px 0; }
 
 .about-me-section {
-  background-image: url(../images/header-bg.png); }
+  background-image: url(../images/header-bg.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat; }
   .about-me-section .row {
     align-items: center;
     min-height: 70vh; }
@@ -149,10 +152,34 @@ p {
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$color1', endColorstr='$color2',GradientType=1 );
     /* IE6-9 */ }
 
-.biography-section .row {
-  min-height: 70vh;
-  align-items: center; }
-.biography-section img {
-  text-align: left; }
+.biography-section {
+  background-image: url(../images/biography-bg.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat; }
+  .biography-section .row {
+    min-height: 70vh;
+    align-items: center; }
+  .biography-section img {
+    text-align: left; }
+
+.latest-work-section {
+  background-image: url(../images/latest-work-bg.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat; }
+  .latest-work-section h2 {
+    text-align: center;
+    margin-bottom: 40px; }
+  .latest-work-section .row {
+    align-items: center; }
+    .latest-work-section .row .col-4 {
+      -webkit-box-flex: 0;
+      -ms-flex: 0 0 33.33%;
+      flex: 0 0 33.33%;
+      max-width: 33.33%;
+      padding: 0 15px; }
+  .latest-work-section .work-img {
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.1); }
 
 /*# sourceMappingURL=style.css.map */
